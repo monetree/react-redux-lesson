@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+$cardcolor:cyan;
+$cardHovercolor:rgb(99, 238, 238);
+$myFont: 'Pacifico', cursive;
+$fontcolor:rgb(4, 23, 24);
+
+
+.wrapper{
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    font-family: $myFont;
+    color: $fontcolor;
+    .card{
+        background:$cardcolor;
+        padding:20px 25px;
+        border-radius: 10px;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 5px;
+        cursor: pointer;
+        &:hover{
+            background:$cardHovercolor;
+        }
+    }
+}
