@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+$cardcolor:rgb(245, 73, 159);
+$cardHovercolor:rgb(211, 49, 103);
+$myFont: 'Pacifico', cursive;
+$fontcolor:rgb(4, 23, 24);
+
+
+.post-wrapper{
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    font-family: $myFont;
+    color: $fontcolor;
+    float: left;
+    width:100%;
+    .post-card{
+        background:$cardcolor;
+        padding:20px 25px;
+        border-radius: 10px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(179, 178, 178, 0.19), 0 6px 6px rgba(189, 184, 184, 0.23);
+        &:hover{
+            background:$cardHovercolor;
+        }
+    }
+}

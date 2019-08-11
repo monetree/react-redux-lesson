@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+$post-color:rgb(245, 73, 159);
+$user-color:cyan;
+$default-color:rgb(10, 9, 9);
+$myFont: 'Pacifico', cursive;
+
+
+    .search-container{
+        background:lightcyan;
+        margin: 5px auto;
+        width:30%;
+        .search-box-default{
+            padding: 5px 0px 5px 0px;
+            border: 2px solid rgb(167, 182, 181);
+            width:100%;
+            outline: none;
+            border-radius: 5px;
+            color:$default-color;
+            font-family: $myFont;
+            font-size: 23px;
+        }
+        .search-box-user{
+            padding: 5px 0px 5px 0px;
+            border: 2px solid lightseagreen;
+            width:100%;
+            outline: none;
+            border-radius: 5px;
+            color:$user-color;
+            font-family: $myFont;
+            font-size: 23px;
+        }
+        .search-box-post{
+            padding: 5px 0px 5px 0px;
+            border: 2px solid rgb(155, 24, 100);
+            width:100%;
+            outline: none;
+            border-radius: 5px;
+            color:$post-color;
+            font-family: $myFont;
+            font-size: 23px;
+        }
+    }
+
+

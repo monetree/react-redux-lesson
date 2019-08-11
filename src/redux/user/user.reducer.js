@@ -17,3 +17,16 @@ export const requestUsers = (state=initialStateUsers, action={}) => {
           return state
     }
   }
+
+const initialUserSearch = {
+  searchField: ''
+}
+
+export const searchUsers = (state=initialUserSearch, action={}) => {
+  switch(action.type) {
+    case UserActionTypes.SEARCH_USER:
+      return Object.assign({}, state, {searchField: action.payload})
+    default:
+      return state
+  }
+}
